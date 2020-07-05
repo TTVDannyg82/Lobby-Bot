@@ -1,2 +1,2 @@
-py fortnite.py
+py lobbybot.py
 cmd /k
