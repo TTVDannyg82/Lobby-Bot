@@ -276,9 +276,8 @@ async def event_friend_request(request: fortnitepy.PendingFriend) -> None:
         print(f"[PartyBot] [{time()}] Declined friend request from: {request.display_name}.")
 
 
-@client.event
-async def event_party_member_join(member: fortnitepy.PartyMember) -> None:
-    await BenBotAsync.set_default_loadout(client, data, member)
+
+       
 
 
 @client.event
